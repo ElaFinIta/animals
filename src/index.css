@@ -5,6 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: orange;
+}
+
+h1 {
+  text-align: center;
+}
+
+.animal_list > div {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 code {
@@ -12,6 +22,18 @@ code {
     monospace;
 }
 
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 12rem;
+  margin: 0.5rem;
+  border: 2px solid peru;
+  border-radius: 3px;
+}
+
 .card img {
-  width: 100%;
+  max-width: 100%;
 }

@@ -3,7 +3,7 @@ import AnimalsList from './Animals/AnimalsList';
 
 const Main = () => {
   return (
-    <div>
+    <div className="animal_list">
       <AnimalsList />
     </div>
   );
