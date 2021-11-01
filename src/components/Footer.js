@@ -2,9 +2,13 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            footer
-        </div>
+        <footer>
+            <p>
+                <small>
+                    Elena CK &copy;
+                </small>
+            </p>
+        </footer>
     );
 };
 
