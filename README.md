@@ -1,6 +1,10 @@
 # Single page application (SPA)
 
-An application to create cards from a list of animals. Images in cards are fetched from Unsplash.
+An application to create cards from a list of animals. Images in cards are fetched from Unsplash. A link for the Wikipedia page for each animal is provided.
+
+Concepts practised:
+- routing and nested routing
+- controlled forms
 
 ## Getting Started with Create React App
 

@@ -3,6 +3,9 @@ import { Link, useRouteMatch } from 'react-router-dom';
 
 const AnimalsCard = (props) => {
     const match = useRouteMatch();
+    // const { path, url} = useRouteMatch;
+    // console.log("path: ", path);
+    // console.log("url: ", url);
 
     return (
         <div className="card">

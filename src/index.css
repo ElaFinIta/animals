@@ -94,3 +94,7 @@ footer {
   justify-content: center;
   font-family: 'Architects Daughter', cursive;
 }
+
+a {
+  color: darkgreen;
+}
