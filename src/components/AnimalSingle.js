@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams, useRouteMatch, useHistory } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 
 const AnimalSingle = () => {
     let {animal} = useParams();
