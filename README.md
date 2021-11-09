@@ -18,4 +18,4 @@ A picture of every animal is fetched from Unsplash. Clicking the *read more* lin
 
 ## Screenshot:
 
-![](screenshot_animals.png "Elena's portfolio")
+![screenshot](screenshot_animals.png "Elena's portfolio")

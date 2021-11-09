@@ -67,6 +67,7 @@ export const animals = [
   { name: "lion" },
   { name: "llama" },
   { name: "loris" },
+  { name: "lynx" },
   { name: "manatee" },
   { name: "mandrill" },
   { name: "marten" },
