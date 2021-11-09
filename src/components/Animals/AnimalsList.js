@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { animals } from './animals';
 import AnimalsCard from './AnimalsCard';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, withRouter } from 'react-router-dom';
 import AnimalSingle from "../AnimalSingle"
 
 class AnimalsList extends Component {
@@ -51,4 +51,4 @@ class AnimalsList extends Component {
     }
 }
 
-export default AnimalsList;
+export default withRouter(AnimalsList);

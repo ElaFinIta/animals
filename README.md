@@ -2,19 +2,20 @@
 
 An application to create cards from a list of animals. Images in cards are fetched from Unsplash. A link for the Wikipedia page for each animal is provided.
 
-Concepts practised:
+## Usage:
+Search for an animal by typing in the input field. An animal list of animals that contains the given string is shown.
+A picture of every animal is fetched from Unsplash. Clicking the *read more* link brings to a separate animal card with a link to the Wikipedia page of the given animal.
+
+
+## Concepts practised:
 - routing and nested routing
 - controlled forms
 
-## Getting Started with Create React App
+## Built with:
+- REACT
+- JXS
+- CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screenshot:
 
-### Available Scripts
-
-In the project directory, you can run:
-
-#### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](screenshot_animals.png "Elena's portfolio")
