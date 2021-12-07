@@ -17,8 +17,6 @@ class AnimalsList extends Component {
     }
 
 
-    animalsListing = animals.map((item) => (<AnimalsCard key={item.name} name={item.name} />));
-
     render() {
         const animalFilter = animals.filter(animal => {
             return animal.name
@@ -38,7 +36,10 @@ class AnimalsList extends Component {
             <div className="search_animals">
                 <Switch>
                     <Route exact path={this.props.match.path}>
-                        <input type="text" onChange={this.searchInputHandler} />
+                        <div className="label_input_wrapper">
+                            <label>Search: </label>
+                            <input type="text" onChange={this.searchInputHandler} />
+                        </div>
                         <div className="animalsList">{animalsListing}</div>
                     </Route>
                     {/* with :animal you give the params, it goes to Params, colon is ncessary */}

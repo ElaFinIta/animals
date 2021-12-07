@@ -35,7 +35,9 @@ h1 {
 .about,
 .singleAnimal {
   padding: 3rem;
+  height: 70vh;
 }
+
 
 .animalsList {
   display: flex;
@@ -108,4 +110,12 @@ a {
   align-self: center;
   justify-content: center;
   padding: 0.6rem;
+  margin-left: 1rem;
+}
+
+.label_input_wrapper {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
 }

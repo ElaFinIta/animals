@@ -3,9 +3,10 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            <p className="home">
-                This is the HOME page of the Animal App
-            </p>
+            <div className="home">
+                <p>Search for an animal to see pictures or animals that match the search as you type.</p>
+                <p>You can click a card to see addititonal information.</p>
+            </div>
         </div>
     );
 };
