@@ -27,7 +27,8 @@ nav ul li {
   padding: 1rem;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -72,7 +73,6 @@ code {
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: white;
   width: 16rem;
   margin: 0.5rem;
@@ -98,6 +98,7 @@ footer {
 }
 
 a {
+  text-decoration: none;
   color: darkgreen;
 }
 
